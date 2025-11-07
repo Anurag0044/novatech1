@@ -4513,19 +4513,40 @@ void main() {
   }
 
   .card {
-    width: 900px;
+    width: 90%;
+    max-width: 1100px;
     height: 400px;
     border-radius: 8px;
     background: #111;
     display: flex;
-    gap: 8px;
+    gap: 10px;
     padding: 0.5em;
-    overflow: hidden;
+    overflow-x: auto; /* Enables horizontal scrolling */
+    overflow-y: hidden;
+    scroll-behavior: smooth;
+    scrollbar-width: thin;
+    scrollbar-color: #06b6d4 #111;
+  }
+
+  /* Custom scrollbar for Webkit browsers */
+  .card::-webkit-scrollbar {
+    height: 10px;
+  }
+
+  .card::-webkit-scrollbar-track {
+    background: #111;
+    border-radius: 10px;
+  }
+
+  .card::-webkit-scrollbar-thumb {
+    background: linear-gradient(45deg, #06b6d4, #8b5cf6);
+    border-radius: 10px;
   }
 
   .card p {
+    min-width: 250px;
     height: 100%;
-    flex: 1;
+    flex-shrink: 0;
     overflow: hidden;
     cursor: pointer;
     border-radius: 8px;
@@ -4538,7 +4559,8 @@ void main() {
   }
 
   .card p:hover {
-    flex: 3;
+    transform: scale(1.05);
+    border-color: #06b6d4;
   }
 
   .card img {
@@ -4555,18 +4577,12 @@ void main() {
 
   @media (max-width: 768px) {
     .card {
-      flex-direction: column;
       width: 95%;
-      height: auto;
+      height: 250px;
     }
 
     .card p {
-      flex: unset;
-      height: 200px;
-    }
-
-    .card p:hover {
-      flex: unset;
+      min-width: 200px;
     }
   }
 `,$I=()=>ct.jsxs("section",{id:"contact",className:"py-24 px-4 bg-black/20 backdrop-blur-sm relative overflow-hidden",children:[ct.jsx(Ig,{children:"Contact & Venue"}),ct.jsxs("div",{className:"container mx-auto grid md:grid-cols-2 gap-12",children:[ct.jsx(gn.div,{initial:{opacity:0,x:-50},whileInView:{opacity:1,x:0},viewport:{once:!0},transition:{duration:.6},children:ct.jsxs("div",{className:"bg-white/5 border border-purple-400/20 p-8 rounded-xl h-full",children:[ct.jsx("h3",{className:"text-3xl font-bold text-white mb-6",children:"Get In Touch"}),ct.jsxs("div",{className:"space-y-6",children:[ct.jsxs("div",{className:"flex items-start gap-4",children:[ct.jsx(JA,{size:24,className:"text-cyan-400 mt-1 flex-shrink-0"}),ct.jsxs("div",{children:[ct.jsx("h4",{className:"text-xl font-semibold text-white",children:"Venue"}),ct.jsx("p",{className:"text-gray-300",children:"ARKA JAIN University"}),ct.jsx("p",{className:"text-gray-400",children:"Opp. to Kerala Public School, Mohanpur, Gamharia, Jamshedpur, Jharkhand 832108"})]})]}),ct.jsxs("div",{className:"flex items-start gap-4",children:[ct.jsx(v1,{size:24,className:"text-cyan-400 mt-1 flex-shrink-0"}),ct.jsxs("div",{children:[ct.jsx("h4",{className:"text-xl font-semibold text-white",children:"Email"}),ct.jsx("a",{href:"mailto:technika@arka.ac.in",className:"text-gray-300 hover:text-cyan-400 transition-colors",children:"technika@arka.ac.in"})]})]})]}),ct.jsxs("div",{className:"mt-10 pt-6 border-t border-cyan-400/20",children:[ct.jsx("h4",{className:"text-xl font-semibold text-white mb-4",children:"Follow Us"}),ct.jsxs("div",{className:"flex gap-6",children:[ct.jsx(gn.a,{href:"#",whileHover:{scale:1.2,rotate:-10},className:"text-gray-400 hover:text-purple-500 transition-colors","aria-label":"Instagram",children:ct.jsx(YA,{size:32})}),ct.jsx(gn.a,{href:"#",whileHover:{scale:1.2},className:"text-gray-400 hover:text-cyan-500 transition-colors","aria-label":"LinkedIn",children:ct.jsx(KA,{size:32})}),ct.jsx(gn.a,{href:"#",whileHover:{scale:1.2,rotate:10},className:"text-gray-400 hover:text-blue-600 transition-colors","aria-label":"Facebook",children:ct.jsx(BA,{size:32})})]})]})]})}),ct.jsx(gn.div,{className:"w-full h-96 md:h-auto md:min-h-[400px] rounded-xl overflow-hidden border-2 border-cyan-400/30 shadow-2xl",initial:{opacity:0,x:50},whileInView:{opacity:1,x:0},viewport:{once:!0},transition:{duration:.6},children:ct.jsx("iframe",{src:"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3365.6993477209485!2d86.09991397481909!3d22.843378422992608!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f5e5f1b496777f%3A0x1d506033b3ed835d!2sARKA%20JAIN%20University!5e1!3m2!1sen!2sin!4v1761490912469!5m2!1sen!2sin",width:"100%",height:"100%",style:{border:0},allowFullScreen:"",loading:"lazy",referrerPolicy:"no-referrer-when-downgrade",title:"ARKA JAIN University Location"})})]})]}),tF=()=>ct.jsx("footer",{className:"py-10 text-center border-t border-cyan-400/10",children:ct.jsxs("div",{className:"container mx-auto px-4",children:[ct.jsxs("p",{className:"text-gray-400",children:["© ",new Date().getFullYear()," School of Engineering & IT, ARKA JAIN University."]}),ct.jsx("p",{className:"text-gray-500 text-sm mt-1",children:"Designed with the spark of NOVA."}),ct.jsx("p",{children:"created by anurag"})]})}),eF=({selectedImage:i,setSelectedImage:t})=>ct.jsx(fw,{children:i&&ct.jsxs(gn.div,{className:"fixed inset-0 z-[100] bg-black/80 backdrop-blur-sm flex items-center justify-center p-4",initial:{opacity:0},animate:{opacity:1},exit:{opacity:0},onClick:()=>t(null),children:[ct.jsx(gn.img,{layoutId:i,src:i,alt:"Enlarged gallery view",className:"max-w-full max-h-full w-auto h-auto rounded-lg shadow-2xl",onClick:e=>e.stopPropagation()}),ct.jsx(gn.button,{className:"absolute top-6 right-6 p-2 rounded-full bg-black/50 text-white hover:text-cyan-400 transition-colors",onClick:()=>t(null),initial:{opacity:0,scale:.5},animate:{opacity:1,scale:1},transition:{delay:.2},"aria-label":"Close image gallery",children:ct.jsx(_1,{size:32})})]})});function nF(){const[i,t]=Rt.useState(null);return Rt.useEffect(()=>{document.documentElement.style.scrollBehavior="smooth"},[]),ct.jsxs("div",{className:"bg-[#0a0a1a] text-gray-100 font-sans relative overflow-x-hidden",children:[ct.jsx(c2,{}),ct.jsxs("main",{className:"relative z-10",children:[ct.jsx(G5,{}),ct.jsx(j5,{}),ct.jsx("section",{id:"events",children:ct.jsx(qI,{})}),ct.jsx(ZI,{}),ct.jsx("section",{id:"gallery",children:ct.jsx(QI,{setSelectedImage:t})}),ct.jsx($I,{})]}),ct.jsx(tF,{}),ct.jsx(eF,{selectedImage:i,setSelectedImage:t})]})}bA.createRoot(document.getElementById("root")).render(ct.jsx(Lo.StrictMode,{children:ct.jsx(nF,{})}));
