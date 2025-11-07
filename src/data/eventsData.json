@@ -1,0 +1,213 @@
+{
+  "events": [
+    {
+      "title": "Web Wizard",
+      "shortDesc": "Flagship web development marathon. Build a futuristic website based on the theme.",
+      "img": "https://placehold.co/600x400/1a202c/76E4F7?text=Web+Wizard",
+      "category": "Web Development",
+      "duration": "48 hours",
+      "teamSize": "Individual or Team (max 3 members)",
+      "prizes": [
+        "1st Place: ₹25,000 + Trophy + Certificate",
+        "2nd Place: ₹15,000 + Trophy + Certificate",
+        "3rd Place: ₹10,000 + Trophy + Certificate",
+        "Special Awards: Best Design, Most Innovative"
+      ],
+      "rules": [
+        "Participants must build a website from scratch using HTML, CSS, and JavaScript",
+        "Framework usage (React, Vue, Angular) is allowed",
+        "Theme will be announced at the start of the event",
+        "All code must be written during the event hours",
+        "No pre-built templates allowed",
+        "Open book - you can refer to documentation",
+        "Submission via GitHub required"
+      ],
+      "judgingCriteria": [
+        "Design & UI/UX (30%)",
+        "Functionality & Features (30%)",
+        "Code Quality (20%)",
+        "Creativity & Innovation (20%)"
+      ],
+      "skills": ["HTML", "CSS", "JavaScript", "Responsive Design", "API Integration"],
+      "schedule": {
+        "day": "Day 1 - 2",
+        "startTime": "9:00 AM",
+        "endTime": "9:00 PM"
+      },
+      "venue": "Tech Lab 101"
+    },
+    {
+      "title": "CodeVenture",
+      "shortDesc": "An intense competitive programming battle. Solve complex problems against the clock.",
+      "img": "https://placehold.co/600x400/1a202c/9F7AEA?text=CodeVenture",
+      "category": "Competitive Programming",
+      "duration": "4 hours",
+      "teamSize": "Individual or Team (max 2 members)",
+      "prizes": [
+        "1st Place: ₹20,000 + Trophy + Certificate",
+        "2nd Place: ₹15,000 + Trophy + Certificate",
+        "3rd Place: ₹10,000 + Trophy + Certificate",
+        "Rank 4-10: Participation Certificates + Goodies"
+      ],
+      "rules": [
+        "Platform: HackerRank / CodeChef",
+        "Time limit: 4 hours",
+        "Number of problems: 6-8",
+        "Languages allowed: C, C++, Java, Python",
+        "Internet access allowed for documentation only",
+        "No collaboration between teams",
+        "Final ranking based on number of problems solved and time taken"
+      ],
+      "judgingCriteria": [
+        "Number of problems solved correctly (Primary)",
+        "Time taken to solve (Secondary)",
+        "Code efficiency and optimization"
+      ],
+      "skills": ["Data Structures", "Algorithms", "Problem Solving", "Time Complexity"],
+      "schedule": {
+        "day": "Day 1",
+        "startTime": "10:00 AM",
+        "endTime": "2:00 PM"
+      },
+      "venue": "Computer Lab 301"
+    },
+    {
+      "title": "RoboWars",
+      "shortDesc": "The ultimate clash of bots. Design, build, and battle your robot in our arena.",
+      "img": "https://placehold.co/600x400/1a202c/48BB78?text=RoboWars",
+      "category": "Robotics",
+      "duration": "Single Elimination Tournament",
+      "teamSize": "Team (2-4 members)",
+      "prizes": [
+        "Champion: ₹50,000 + Trophy + Certificate",
+        "Runner-up: ₹30,000 + Trophy + Certificate",
+        "Best Design: ₹10,000 + Certificate",
+        "Most Destructive Bot: ₹5,000 + Certificate"
+      ],
+      "rules": [
+        "Robot weight limit: 10 kg",
+        "Maximum dimensions: 30cm x 30cm x 30cm",
+        "Power supply: 12V DC only",
+        "RC Control or Autonomous mode",
+        "Weapons allowed but must be safe",
+        "All robots must pass safety inspection",
+        "Knockout format - last bot standing wins"
+      ],
+      "judgingCriteria": [
+        "Battle performance (60%)",
+        "Bot design and engineering (20%)",
+        "Strategy and control (20%)"
+      ],
+      "skills": ["Robotics", "Electronics", "Mechanical Design", "Remote Control"],
+      "schedule": {
+        "day": "Day 2",
+        "startTime": "11:00 AM",
+        "endTime": "5:00 PM"
+      },
+      "venue": "Arena Hall"
+    },
+    {
+      "title": "UI/UX Sprint",
+      "shortDesc": "Design a user-centric interface under time constraints.",
+      "img": "https://placehold.co/600x400/1a202c/FFB86B?text=UI%2FUX+Sprint",
+      "category": "Design",
+      "duration": "6 hours",
+      "teamSize": "Individual or Team (max 2 members)",
+      "prizes": [
+        "1st Place: ₹15,000 + Trophy + Certificate",
+        "2nd Place: ₹10,000 + Trophy + Certificate",
+        "3rd Place: ₹5,000 + Trophy + Certificate",
+        "Most Creative Design: ₹3,000 + Certificate"
+      ],
+      "rules": [
+        "Design a mobile app interface based on the given problem statement",
+        "Tools: Figma, Adobe XD, or Sketch",
+        "Must include: Wireframes, Mockups, and Prototype",
+        "Presentation: 5 minutes to present your design",
+        "No template usage - original work only"
+      ],
+      "judgingCriteria": [
+        "User Experience & Usability (40%)",
+        "Visual Design & Aesthetics (30%)",
+        "Innovation & Creativity (20%)",
+        "Presentation & Communication (10%)"
+      ],
+      "skills": ["UI/UX Design", "Figma", "User Research", "Prototyping"],
+      "schedule": {
+        "day": "Day 1",
+        "startTime": "2:00 PM",
+        "endTime": "8:00 PM"
+      },
+      "venue": "Design Lab 201"
+    },
+    {
+      "title": "Hack the Stack",
+      "shortDesc": "A collaborative hackathon to ship a prototype during the event weekend.",
+      "img": "https://placehold.co/600x400/1a202c/60A5FA?text=Hack+the+Stack",
+      "category": "Hackathon",
+      "duration": "24 hours",
+      "teamSize": "Team (3-5 members)",
+      "prizes": [
+        "Winner: ₹50,000 + Trophy + Certificate + Job Opportunities",
+        "2nd Place: ₹30,000 + Trophy + Certificate",
+        "3rd Place: ₹20,000 + Trophy + Certificate",
+        "Best Innovation: ₹10,000 + Certificate",
+        "Best Pitch: ₹5,000 + Certificate"
+      ],
+      "rules": [
+        "Build a working prototype of a software solution",
+        "Theme: Solve real-world problems using technology",
+        "Tech stack: Any (web, mobile, IoT, AI/ML, etc.)",
+        "Must include: Demo, Pitch, and Source Code",
+        "Mentors available for guidance",
+        "Free meals and snacks provided"
+      ],
+      "judgingCriteria": [
+        "Innovation & Problem Solving (35%)",
+        "Technical Implementation (25%)",
+        "Execution & Demo (20%)",
+        "Presentation & Pitch (20%)"
+      ],
+      "skills": ["Full Stack Development", "API Integration", "Problem Solving", "Teamwork"],
+      "schedule": {
+        "day": "Day 1 - 2",
+        "startTime": "12:00 PM (Day 1)",
+        "endTime": "12:00 PM (Day 2)"
+      },
+      "venue": "Innovation Hub"
+    },
+    {
+      "title": "TechTalks",
+      "shortDesc": "Short, high-impact talks from industry experts and student innovators.",
+      "img": "https://placehold.co/600x400/1a202c/FDA4AF?text=TechTalks",
+      "category": "Knowledge Sharing",
+      "duration": "Various sessions throughout the day",
+      "teamSize": "Individual speaker",
+      "prizes": [
+        "Best Speaker: Certificate + Goodies",
+        "Most Engaging Talk: Certificate + Goodies",
+        "Audience Choice Award: Certificate + Goodies"
+      ],
+      "rules": [
+        "Duration: 10-15 minutes per talk",
+        "Topic: Must be tech-related",
+        "Presentation format: Slides, demo, or live coding",
+        "Open for students and professionals",
+        "Submit your talk proposal beforehand"
+      ],
+      "judgingCriteria": [
+        "Content Quality & Research (40%)",
+        "Presentation Skills (30%)",
+        "Audience Engagement (20%)",
+        "Practical Insights (10%)"
+      ],
+      "skills": ["Public Speaking", "Technical Communication", "Knowledge Sharing"],
+      "schedule": {
+        "day": "Both Days",
+        "startTime": "Multiple time slots",
+        "endTime": "Check schedule board"
+      },
+      "venue": "Auditorium"
+    }
+  ]
+}
